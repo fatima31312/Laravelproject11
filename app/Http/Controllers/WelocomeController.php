@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class WelocomeController extends Controller
 {
-    public function welcome()
+    public function Welcome()
     {
         return view("welcome");
     }
